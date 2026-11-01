@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crimson Draft — Press Kit</title>
+<meta name="description" content="Press kit for Crimson Draft, a survival horror game by Phase One set aboard a drifting oil tanker in the North Atlantic.">
+<meta property="og:title" content="Crimson Draft — Press Kit">
+<meta property="og:description" content="Survival horror aboard the Marinera, a sanctioned oil tanker found silent in the North Atlantic.">
+<meta property="og:image" content="img/full/crimsondraft-keyart-1920x1080-con-logo.png">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080808; --col:#161b19; --col2:#1d2421; --line:#2a3330;
+  --head:#c9c55e; --text:#b5b39a; --dim:#7f7d6c; --red:#7a2a22; --red2:#4b1a17; --bone:#e2ddce;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;overflow-wrap:break-word;background:var(--bg) url(img/bg.png) center top / 1920px auto no-repeat;color:var(--text);
+  font:16px/1.6 "Courier Prime",ui-monospace,monospace;image-rendering:pixelated}
+a{color:var(--head)}
+a:hover{color:var(--bone)}
+header{text-align:center;padding:36px 16px 20px}
+header img.logo{width:min(780px,92vw);height:auto;filter:drop-shadow(6px 9px 8px rgba(0,0,0,.85))}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 18px;margin-top:10px;font-family:"Special Elite",monospace;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
+nav a{text-decoration:none;color:var(--text)}
+nav a:hover{color:var(--head)}
+main{max-width:960px;margin:0 auto 60px;background:var(--col);box-shadow:0 0 0 1px #000,0 20px 60px rgba(0,0,0,.6)}
+section{padding:34px 40px;border-top:1px solid var(--line)}
+section:first-child{border-top:0}
+h1,h2,h3{font-family:"Special Elite",monospace;color:var(--head);font-weight:400;margin:0 0 14px;line-height:1.25}
+h2{font-size:26px;text-transform:uppercase;letter-spacing:.06em}
+h2::before{content:"// ";color:var(--red)}
+h3{font-size:18px}
+p{margin:0 0 14px}
+.tag{font-style:italic;color:var(--head)}
+.grid{display:grid;grid-template-columns:270px 1fr;gap:34px}
+.facts{background:var(--col2);border:1px solid var(--line);padding:18px 20px;align-self:start}
+.facts dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px}
+.facts dt{color:var(--dim);text-transform:uppercase;font-size:12px;letter-spacing:.05em;padding-top:2px}
+.facts dd{margin:0;color:var(--bone);overflow-wrap:anywhere}
+.facts img{display:block;width:96px;margin:0 0 14px}
+.btn{display:inline-block;margin:6px 8px 0 0;padding:9px 14px;background:var(--red2);border:1px solid var(--red);color:var(--bone);
+  text-decoration:none;font-family:"Special Elite",monospace;text-transform:uppercase;letter-spacing:.06em;font-size:14px}
+.btn:hover{background:var(--red);color:#fff}
+ul.feat{margin:0;padding:0;list-style:none}
+ul.feat li{padding:8px 0 8px 26px;position:relative;border-bottom:1px dashed var(--line)}
+ul.feat li::before{content:"";position:absolute;left:4px;top:15px;width:10px;height:10px;background:var(--red)}
+ul.feat b{color:var(--bone)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.shots a{display:block;border:1px solid var(--line);line-height:0}
+.shots a:hover{border-color:var(--head)}
+.shots img{width:100%;height:auto}
+.gifs{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.gifs figure{margin:0;border:1px solid var(--line);background:#000}
+.gifs img{width:100%;display:block}
+.gifs figcaption{font-size:12px;color:var(--dim);padding:6px 8px;text-transform:uppercase;letter-spacing:.05em}
+.trailer{aspect-ratio:16/9;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;color:var(--dim);
+  font-family:"Special Elite",monospace;letter-spacing:.1em;text-transform:uppercase;background:#0c0f0e}
+.assets{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.asset{background:var(--col2);border:1px solid var(--line);padding:10px;text-decoration:none;color:var(--text);font-size:13px}
+.asset:hover{border-color:var(--head)}
+.asset .pv{height:120px;display:flex;align-items:center;justify-content:center;background:#050505;margin-bottom:8px;overflow:hidden}
+.asset .pv img{max-width:100%;max-height:120px}
+.asset span{display:block;color:var(--dim);font-size:11px}
+.team{width:100%;border-collapse:collapse;font-size:15px}
+.team-wrap{overflow-x:auto}
+.team td{padding:9px 6px;border-bottom:1px dashed var(--line);vertical-align:top}
+.team td:first-child{color:var(--bone);white-space:nowrap}
+.team td:nth-child(2){color:var(--dim)}
+.team a{margin-right:10px}
+.quote{font-family:"Special Elite",monospace;font-size:20px;color:var(--bone);border-left:4px solid var(--red);padding:4px 0 4px 16px;margin:18px 0}
+footer{text-align:center;color:var(--dim);font-size:13px;padding:0 16px 40px}
+.pending{color:var(--dim);font-style:italic}
+@media (max-width:760px){
+  .grid{grid-template-columns:1fr}
+  .team td:first-child{white-space:normal}
+  .team tr{display:block;padding:8px 0;border-bottom:1px dashed var(--line)}
+  .team td{display:block;border:0;padding:2px 0}
+  .shots,.gifs{grid-template-columns:1fr}
+  .assets{grid-template-columns:1fr 1fr}
+  section{padding:26px 18px}
+  body{background-size:1100px auto}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="img/logo.png" alt="Crimson Draft">
+  <nav>
+    <a href="#about">About</a><a href="#features">Features</a><a href="#trailer">Trailer</a>
+    <a href="#screenshots">Screenshots</a><a href="#gifs">GIFs</a><a href="#logos">Logos &amp; Art</a>
+    <a href="#team">Team</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about" class="grid">
+  <aside class="facts">
+    <img src="img/icon.png" alt="">
+    <dl>
+      <dt>Title</dt><dd>Crimson Draft</dd>
+      <dt>Developer</dt><dd>Phase One</dd>
+      <dt>Publisher</dt><dd>Self-published</dd>
+      <dt>Based in</dt><dd>Buenos Aires, Argentina</dd>
+      <dt>Platform</dt><dd>PC (Windows)</dd>
+      <dt>Release</dt><dd>TBA</dd>
+      <dt>Price</dt><dd>TBA</dd>
+      <dt>Genre</dt><dd>Survival horror</dd>
+      <dt>Engine</dt><dd>Unity</dd>
+      <dt>Players</dt><dd>Single-player</dd>
+      <dt>Languages</dt><dd>English, Spanish</dd>
+      <dt>itch.io</dt><dd><a href="https://phaseoneworks.itch.io/crimson-draft">phaseoneworks.itch.io</a></dd>
+    </dl>
+    <p style="margin-top:16px">
+      <a class="btn" href="download/crimsondraft-presskit-imagenes.zip">Download images (ZIP)</a>
+      <a class="btn" href="download/crimsondraft-presskit-video.zip">Download video (ZIP)</a>
+    </p>
+  </aside>
+  <div>
+    <h1>No one knows what lies beneath the waterline.</h1>
+    <p class="tag">January 7, 2026. North Atlantic.</p>
+    <p><b style="color:var(--bone)">Crimson Draft is a survival horror game set aboard the Marinera, a sanctioned oil tanker found drifting and silent in the North Atlantic. Every bullet is permanent, every lost operator is gone for good, and the drug keeping your team alive may be the thing that is killing everyone on board.</b></p>
+    <p>The Marinera, formerly the Bella I, has been chased across the ocean for weeks. Her manifest says she is empty, yet she rides several feet too low in the water. When she stops answering, a special operations team is sent aboard under the name Operation Crimson Draft. There is no extraction, no resupply and no backup.</p>
+    <p>Crimson Draft is a survival horror game inspired by Resident Evil, Sweet Home and Parasite Eve. Combat is a cost, not a reward: ammunition is finite across the whole game, operators who die stay dead and take their weapons with them, and there are no shops or random drops. Players aim shots by hand, choose between ammunition types against layered armor, and read their squad's condition through a cardiac monitor instead of a health bar.</p>
+    <p>Below deck, the team uncovers what the ship is really carrying: KRK-NL, a field stabilizer that keeps operators alive when nothing else will, and that may be the same substance that destroyed the crew. As documents, transmissions and sabotage pile up, the mission turns into a political thriller about power, deniability, and a betrayal from inside the squad.</p>
+    <p class="quote">No heroes. No easy answers. No one left behind.</p>
+  </div>
+</section>
+
+<section id="features">
+  <h2>Features</h2>
+  <ul class="feat">
+    <li><b>Combat is a cost.</b> Finite ammunition, no shops, no random drops. What is on the ship is all there is.</li>
+    <li><b>Permanent loss.</b> Operators who fall stay dead, and their weapons go with them.</li>
+    <li><b>Skill-based aiming.</b> Line up every shot by hand. Wounds make it harder, but never take control away.</li>
+    <li><b>Health without numbers.</b> Read heart rhythm, pulse and blood pressure. An operator can bleed out with a green ECG.</li>
+    <li><b>Tactical ammunition.</b> Hollow points tear flesh but fail against plates; armor-piercing rounds do the opposite.</li>
+    <li><b>KRK-NL.</b> The item that prevents death is also the one that changes your operators forever.</li>
+    <li><b>A ship that tells the story.</b> Crew notes, logs, Morse transmissions and environmental clues.</li>
+    <li><b>Grounded horror.</b> No supernatural monsters. The enemies were human, and someone made them this way on purpose.</li>
+  </ul>
+</section>
+
+<section id="trailer">
+  <h2>Trailer</h2>
+  <div class="trailer">Trailer coming soon</div>
+  <p style="margin-top:12px">Raw gameplay footage (B-roll, 75 s, no music or text) is included in the video ZIP.</p>
+</section>
+
+<section id="screenshots">
+  <h2>Screenshots</h2>
+  <p>Click for full resolution (1920×1080 PNG).</p>
+  <div class="shots">
+    <a href="img/shots/crimsondraft-captura-05-despacho.png"><img loading="lazy" src="img/shots/crimsondraft-captura-05-despacho-thumb.jpg" alt="Captain's office"></a>
+    <a href="img/shots/crimsondraft-captura-08-cubierta-lluvia.png"><img loading="lazy" src="img/shots/crimsondraft-captura-08-cubierta-lluvia-thumb.jpg" alt="Deck in the rain"></a>
+    <a href="img/shots/crimsondraft-captura-01-camarote-rojo.png"><img loading="lazy" src="img/shots/crimsondraft-captura-01-camarote-rojo-thumb.jpg" alt="Red cabin"></a>
+    <a href="img/shots/crimsondraft-captura-10-cuadro.png"><img loading="lazy" src="img/shots/crimsondraft-captura-10-cuadro-thumb.jpg" alt="Painting puzzle"></a>
+    <a href="img/shots/crimsondraft-captura-03-sala-puerta-roja.png"><img loading="lazy" src="img/shots/crimsondraft-captura-03-sala-puerta-roja-thumb.jpg" alt="Red door room"></a>
+    <a href="img/shots/crimsondraft-captura-04-puerta-mantenimiento.png"><img loading="lazy" src="img/shots/crimsondraft-captura-04-puerta-mantenimiento-thumb.jpg" alt="Maintenance door"></a>
+    <a href="img/shots/crimsondraft-captura-02-inventario.png"><img loading="lazy" src="img/shots/crimsondraft-captura-02-inventario-thumb.jpg" alt="Inventory"></a>
+    <a href="img/shots/crimsondraft-captura-09-poster-emergency-plan.png"><img loading="lazy" src="img/shots/crimsondraft-captura-09-poster-emergency-plan-thumb.jpg" alt="Emergency plan poster"></a>
+    <a href="img/shots/crimsondraft-captura-06-combate-apuntado.png"><img loading="lazy" src="img/shots/crimsondraft-captura-06-combate-apuntado-thumb.jpg" alt="Combat aiming"></a>
+    <a href="img/shots/crimsondraft-captura-07-cuarto-verde-enemigo.png"><img loading="lazy" src="img/shots/crimsondraft-captura-07-cuarto-verde-enemigo-thumb.jpg" alt="Green room"></a>
+  </div>
+</section>
+
+<section id="gifs">
+  <h2>GIFs</h2>
+  <div class="gifs">
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-cubierta-lluvia.gif" alt=""><figcaption>Deck, North Atlantic</figcaption></figure>
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-beeper-morse.gif" alt=""><figcaption>Beeper / Morse input</figcaption></figure>
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-cuadro-puzzle.gif" alt=""><figcaption>Examining the painting</figcaption></figure>
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-vapor-valvula.gif" alt=""><figcaption>Steam leak</figcaption></figure>
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-combate.gif" alt=""><figcaption>Combat</figcaption></figure>
+    <figure><img loading="lazy" src="img/gifs/crimsondraft-gif-posters.gif" alt=""><figcaption>Ship posters</figcaption></figure>
+  </div>
+</section>
+
+<section id="logos">
+  <h2>Logos &amp; Key Art</h2>
+  <div class="assets">
+    <a class="asset" href="img/full/crimsondraft-logo-horizontal-transparente.png"><div class="pv"><img src="img/logo.png" alt=""></div>Logo, horizontal<span>PNG, transparent</span></a>
+    <a class="asset" href="img/full/crimsondraft-logo-apilado-transparente.png"><div class="pv"><img loading="lazy" src="img/full/crimsondraft-logo-apilado-transparente.png" alt=""></div>Logo, stacked<span>PNG, transparent</span></a>
+    <a class="asset" href="img/full/crimsondraft-icono-casco-1024.png"><div class="pv"><img src="img/icon.png" alt=""></div>Icon<span>PNG 1024, transparent</span></a>
+    <a class="asset" href="img/full/crimsondraft-keyart-1920x1080-con-logo.png"><div class="pv"><img loading="lazy" src="img/art/crimsondraft-keyart-1920x1080-con-logo-thumb.jpg" alt=""></div>Key art, with logo<span>1920×1080</span></a>
+    <a class="asset" href="img/full/crimsondraft-keyart-1920x1080-sin-logo.png"><div class="pv"><img loading="lazy" src="img/art/crimsondraft-keyart-1920x1080-sin-logo-thumb.jpg" alt=""></div>Key art, no logo<span>1920×1080, space for titles</span></a>
+    <a class="asset" href="img/full/crimsondraft-banner-3840x1240-pixel.png"><div class="pv"><img loading="lazy" src="img/art/crimsondraft-banner-3840x1240-pixel-thumb.jpg" alt=""></div>Banner<span>3840×1240</span></a>
+    <a class="asset" href="img/full/crimsondraft-cover-barco-1260x1000.png"><div class="pv"><img loading="lazy" src="img/art/crimsondraft-cover-barco-630x500-thumb.jpg" alt=""></div>Cover, ship<span>1260×1000</span></a>
+    <a class="asset" href="img/full/crimsondraft-cover-calado-suave-1260x1000.png"><div class="pv"><img loading="lazy" src="img/art/crimsondraft-cover-calado-suave-630x500-thumb.jpg" alt=""></div>Cover, draft marks<span>1260×1000</span></a>
+    <a class="asset" href="img/full/crimsondraft-guia-de-marca.pdf"><div class="pv" style="font-family:'Special Elite';color:var(--head)">BRAND GUIDE</div>Brand guide<span>PDF: palette, fonts, logo usage</span></a>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Phase One</h2>
+  <p>Phase One is a five-person independent team from Buenos Aires, Argentina, founded in 2026, bringing together game design, programming, 2D and 3D art. Crimson Draft is the studio's debut project.</p>
+  <div class="team-wrap"><table class="team">
+    <tr><td>Enrique Aebi</td><td>Game Designer</td><td><a href="http://www.linkedin.com/in/enrique-aebi-725892166">LinkedIn</a></td></tr>
+    <tr><td>Tomás Bermúdez</td><td>3D Artist</td><td><a href="https://www.linkedin.com/in/tom%C3%A1s-an%C3%ADbal-berm%C3%BAdez/">LinkedIn</a><a href="https://www.artstation.com/beermu93">ArtStation</a><a href="https://beermu93.itch.io/">itch.io</a></td></tr>
+    <tr><td>Franco Bulgarella</td><td>Product Manager / Developer</td><td></td></tr>
+    <tr><td>David Marcano</td><td>Developer</td><td><a href="https://www.linkedin.com/in/davidmarcano96/">LinkedIn</a><a href="https://dfmr96.itch.io/">itch.io</a></td></tr>
+    <tr><td>Lorenzo Lodigiani</td><td>2D Artist / Level Designer</td><td><a href="https://mistsheina.itch.io/">itch.io</a><a href="https://www.instagram.com/mistsheina/">Instagram</a><a href="https://warrer33.github.io/Sheina_portfolio/">Portfolio</a></td></tr>
+  </table></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Press inquiries: <span class="pending">press email coming soon</span></p>
+  <p>Game page: <a href="https://phaseoneworks.itch.io/crimson-draft">phaseoneworks.itch.io/crimson-draft</a></p>
+  <p>
+    <a class="btn" href="download/crimsondraft-presskit-imagenes.zip">Download images (ZIP)</a>
+    <a class="btn" href="download/crimsondraft-presskit-video.zip">Download video (ZIP)</a>
+  </p>
+</section>
+
+</main>
+
+<footer>Crimson Draft © 2026 Phase One. All rights reserved. Assets may be used for coverage of the game.</footer>
+</body>
+</html>
